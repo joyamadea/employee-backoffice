@@ -1,0 +1,1002 @@
+[{
+    "username": "elindop0",
+    "firstName": "Enrica",
+    "lastName": "Lindop",
+    "email": "elindop0@delicious.com",
+    "birthDate": "1986-01-12",
+    "basicSalary": 16788113,
+    "status": "ACTIVE",
+    "group": "IT",
+    "description": "2022-12-01 10:23:34"
+  }, {
+    "username": "ldachey1",
+    "firstName": "Lock",
+    "lastName": "Dachey",
+    "email": "ldachey1@wp.com",
+    "birthDate": "1977-10-04",
+    "basicSalary": 20937558,
+    "status": "INACTIVE",
+    "group": "IT",
+    "description": "2023-07-13 08:29:35"
+  }, {
+    "username": "egarralts2",
+    "firstName": "Eileen",
+    "lastName": "Garralts",
+    "email": "egarralts2@altervista.org",
+    "birthDate": "1985-05-04",
+    "basicSalary": 15072293,
+    "status": "INACTIVE",
+    "group": "IT",
+    "description": "2023-04-24 02:27:26"
+  }, {
+    "username": "mlebell3",
+    "firstName": "Merrill",
+    "lastName": "Lebell",
+    "email": "mlebell3@cornell.edu",
+    "birthDate": "1976-07-20",
+    "basicSalary": 8322131,
+    "status": "INACTIVE",
+    "group": "Research and Development",
+    "description": "2023-05-02 19:28:21"
+  }, {
+    "username": "sseagrove4",
+    "firstName": "Sascha",
+    "lastName": "Seagrove",
+    "email": "sseagrove4@ning.com",
+    "birthDate": "1986-06-20",
+    "basicSalary": 9376420,
+    "status": "ACTIVE",
+    "group": "Sales",
+    "description": "2023-04-03 18:00:41"
+  }, {
+    "username": "edrinkhill5",
+    "firstName": "Elana",
+    "lastName": "Drinkhill",
+    "email": "edrinkhill5@goodreads.com",
+    "birthDate": "1996-01-20",
+    "basicSalary": 18478465,
+    "status": "ACTIVE",
+    "group": "Administration",
+    "description": "2023-10-23 14:33:47"
+  }, {
+    "username": "swoltman6",
+    "firstName": "Sharai",
+    "lastName": "Woltman",
+    "email": "swoltman6@google.com",
+    "birthDate": "1996-07-24",
+    "basicSalary": 11737106,
+    "status": "INACTIVE",
+    "group": "Operations",
+    "description": "2023-02-08 00:45:32"
+  }, {
+    "username": "eovey7",
+    "firstName": "Elfie",
+    "lastName": "Ovey",
+    "email": "eovey7@webmd.com",
+    "birthDate": "1982-02-10",
+    "basicSalary": 14183758,
+    "status": "ACTIVE",
+    "group": "Administration",
+    "description": "2023-10-31 11:28:42"
+  }, {
+    "username": "gnoli8",
+    "firstName": "Gerhardine",
+    "lastName": "Noli",
+    "email": "gnoli8@virginia.edu",
+    "birthDate": "1972-08-06",
+    "basicSalary": 23291059,
+    "status": "INACTIVE",
+    "group": "IT",
+    "description": "2023-05-19 20:59:13"
+  }, {
+    "username": "jkedwell9",
+    "firstName": "Jody",
+    "lastName": "Kedwell",
+    "email": "jkedwell9@blogger.com",
+    "birthDate": "1971-10-14",
+    "basicSalary": 6027150,
+    "status": "INACTIVE",
+    "group": "Marketing",
+    "description": "2023-04-01 17:36:32"
+  }, {
+    "username": "rhughesdona",
+    "firstName": "Rudiger",
+    "lastName": "Hughesdon",
+    "email": "rhughesdona@ezinearticles.com",
+    "birthDate": "1996-07-19",
+    "basicSalary": 8652288,
+    "status": "ACTIVE",
+    "group": "Research and Development",
+    "description": "2023-08-23 19:45:23"
+  }, {
+    "username": "bcollinwoodb",
+    "firstName": "Barrie",
+    "lastName": "Collinwood",
+    "email": "bcollinwoodb@chicagotribune.com",
+    "birthDate": "1987-11-07",
+    "basicSalary": 11144587,
+    "status": "INACTIVE",
+    "group": "Human Resources",
+    "description": "2023-03-29 15:44:08"
+  }, {
+    "username": "dvancasselc",
+    "firstName": "Dulcine",
+    "lastName": "Van Cassel",
+    "email": "dvancasselc@hubpages.com",
+    "birthDate": "1997-01-17",
+    "basicSalary": 13905661,
+    "status": "ACTIVE",
+    "group": "Administration",
+    "description": "2023-02-06 03:25:36"
+  }, {
+    "username": "rbaxandalld",
+    "firstName": "Rafael",
+    "lastName": "Baxandall",
+    "email": "rbaxandalld@blogger.com",
+    "birthDate": "2002-01-10",
+    "basicSalary": 19915989,
+    "status": "ACTIVE",
+    "group": "Human Resources",
+    "description": "2023-03-24 16:07:42"
+  }, {
+    "username": "bbellanye",
+    "firstName": "Bryan",
+    "lastName": "Bellany",
+    "email": "bbellanye@ted.com",
+    "birthDate": "1993-01-16",
+    "basicSalary": 16463866,
+    "status": "INACTIVE",
+    "group": "Marketing",
+    "description": "2023-04-12 21:25:29"
+  }, {
+    "username": "bcritchleyf",
+    "firstName": "Brion",
+    "lastName": "Critchley",
+    "email": "bcritchleyf@etsy.com",
+    "birthDate": "1985-05-07",
+    "basicSalary": 6375851,
+    "status": "ACTIVE",
+    "group": "Operations",
+    "description": "2023-06-13 09:38:20"
+  }, {
+    "username": "kjennog",
+    "firstName": "Kiersten",
+    "lastName": "Jenno",
+    "email": "kjennog@bbc.co.uk",
+    "birthDate": "1980-07-21",
+    "basicSalary": 10408486,
+    "status": "INACTIVE",
+    "group": "Finance",
+    "description": "2023-06-24 07:53:27"
+  }, {
+    "username": "tdebenedictish",
+    "firstName": "Titus",
+    "lastName": "De Benedictis",
+    "email": "tdebenedictish@prweb.com",
+    "birthDate": "1993-05-27",
+    "basicSalary": 22359939,
+    "status": "INACTIVE",
+    "group": "Sales",
+    "description": "2023-01-13 16:46:40"
+  }, {
+    "username": "jberceveloi",
+    "firstName": "Josey",
+    "lastName": "Bercevelo",
+    "email": "jberceveloi@github.io",
+    "birthDate": "1971-10-27",
+    "basicSalary": 17909935,
+    "status": "INACTIVE",
+    "group": "Research and Development",
+    "description": "2023-03-28 09:16:24"
+  }, {
+    "username": "tgiovanazzij",
+    "firstName": "Tam",
+    "lastName": "Giovanazzi",
+    "email": "tgiovanazzij@thetimes.co.uk",
+    "birthDate": "1998-03-13",
+    "basicSalary": 14106076,
+    "status": "ACTIVE",
+    "group": "IT",
+    "description": "2023-08-26 23:51:04"
+  }, {
+    "username": "tnaisbitk",
+    "firstName": "Tate",
+    "lastName": "Naisbit",
+    "email": "tnaisbitk@wunderground.com",
+    "birthDate": "1986-10-23",
+    "basicSalary": 17832850,
+    "status": "INACTIVE",
+    "group": "Human Resources",
+    "description": "2022-11-19 05:38:08"
+  }, {
+    "username": "jforkanl",
+    "firstName": "Jo ann",
+    "lastName": "Forkan",
+    "email": "jforkanl@macromedia.com",
+    "birthDate": "1976-01-23",
+    "basicSalary": 21650040,
+    "status": "ACTIVE",
+    "group": "Legal",
+    "description": "2023-08-13 09:14:59"
+  }, {
+    "username": "lgrimwoodm",
+    "firstName": "Lorne",
+    "lastName": "Grimwood",
+    "email": "lgrimwoodm@rambler.ru",
+    "birthDate": "1995-06-18",
+    "basicSalary": 16448165,
+    "status": "INACTIVE",
+    "group": "Operations",
+    "description": "2022-11-10 10:48:50"
+  }, {
+    "username": "rarrelln",
+    "firstName": "Reba",
+    "lastName": "Arrell",
+    "email": "rarrelln@nsw.gov.au",
+    "birthDate": "1986-08-17",
+    "basicSalary": 12400955,
+    "status": "ACTIVE",
+    "group": "Finance",
+    "description": "2023-03-13 21:07:45"
+  }, {
+    "username": "dtandero",
+    "firstName": "Domenic",
+    "lastName": "Tander",
+    "email": "dtandero@behance.net",
+    "birthDate": "1998-08-21",
+    "basicSalary": 5876472,
+    "status": "ACTIVE",
+    "group": "Finance",
+    "description": "2023-10-17 09:57:54"
+  }, {
+    "username": "scartmelp",
+    "firstName": "Sib",
+    "lastName": "Cartmel",
+    "email": "scartmelp@google.com.hk",
+    "birthDate": "1975-06-05",
+    "basicSalary": 15642900,
+    "status": "ACTIVE",
+    "group": "Finance",
+    "description": "2023-06-09 13:41:34"
+  }, {
+    "username": "cklassmanq",
+    "firstName": "Camille",
+    "lastName": "Klassman",
+    "email": "cklassmanq@ucoz.ru",
+    "birthDate": "1979-07-14",
+    "basicSalary": 13578621,
+    "status": "ACTIVE",
+    "group": "Human Resources",
+    "description": "2023-07-09 10:28:52"
+  }, {
+    "username": "nbrumbyer",
+    "firstName": "Nicolais",
+    "lastName": "Brumbye",
+    "email": "nbrumbyer@fc2.com",
+    "birthDate": "1996-11-26",
+    "basicSalary": 18777841,
+    "status": "INACTIVE",
+    "group": "IT",
+    "description": "2022-11-17 19:51:42"
+  }, {
+    "username": "rrowntrees",
+    "firstName": "Rutherford",
+    "lastName": "Rowntree",
+    "email": "rrowntrees@webmd.com",
+    "birthDate": "1978-05-13",
+    "basicSalary": 13802646,
+    "status": "ACTIVE",
+    "group": "Human Resources",
+    "description": "2023-06-03 14:17:51"
+  }, {
+    "username": "astuffinst",
+    "firstName": "Alisha",
+    "lastName": "Stuffins",
+    "email": "astuffinst@mozilla.com",
+    "birthDate": "1982-12-29",
+    "basicSalary": 15280553,
+    "status": "ACTIVE",
+    "group": "Legal",
+    "description": "2023-11-04 17:40:36"
+  }, {
+    "username": "dstrettleu",
+    "firstName": "Darn",
+    "lastName": "Strettle",
+    "email": "dstrettleu@census.gov",
+    "birthDate": "1998-07-23",
+    "basicSalary": 21168041,
+    "status": "ACTIVE",
+    "group": "Marketing",
+    "description": "2023-03-08 22:36:58"
+  }, {
+    "username": "jklezmskiv",
+    "firstName": "Janeta",
+    "lastName": "Klezmski",
+    "email": "jklezmskiv@usda.gov",
+    "birthDate": "1972-09-28",
+    "basicSalary": 5577143,
+    "status": "INACTIVE",
+    "group": "Finance",
+    "description": "2023-01-20 15:13:31"
+  }, {
+    "username": "taneleyw",
+    "firstName": "Tabby",
+    "lastName": "Aneley",
+    "email": "taneleyw@github.com",
+    "birthDate": "1992-12-24",
+    "basicSalary": 22243061,
+    "status": "ACTIVE",
+    "group": "Legal",
+    "description": "2023-09-01 02:20:51"
+  }, {
+    "username": "mcassyx",
+    "firstName": "Mauricio",
+    "lastName": "Cassy",
+    "email": "mcassyx@infoseek.co.jp",
+    "birthDate": "1979-08-04",
+    "basicSalary": 14191827,
+    "status": "ACTIVE",
+    "group": "IT",
+    "description": "2023-03-01 10:43:51"
+  }, {
+    "username": "lskyppy",
+    "firstName": "Lennie",
+    "lastName": "Skypp",
+    "email": "lskyppy@over-blog.com",
+    "birthDate": "1983-03-28",
+    "basicSalary": 4186255,
+    "status": "ACTIVE",
+    "group": "Marketing",
+    "description": "2023-09-06 17:50:25"
+  }, {
+    "username": "spowtonz",
+    "firstName": "Shalom",
+    "lastName": "Powton",
+    "email": "spowtonz@yellowbook.com",
+    "birthDate": "2000-11-15",
+    "basicSalary": 13374316,
+    "status": "ACTIVE",
+    "group": "Administration",
+    "description": "2022-12-16 07:52:45"
+  }, {
+    "username": "tdemalchar10",
+    "firstName": "Thomasine",
+    "lastName": "De Malchar",
+    "email": "tdemalchar10@cdbaby.com",
+    "birthDate": "1995-05-07",
+    "basicSalary": 13528854,
+    "status": "INACTIVE",
+    "group": "Marketing",
+    "description": "2023-09-23 00:49:36"
+  }, {
+    "username": "liacovides11",
+    "firstName": "Lynn",
+    "lastName": "Iacovides",
+    "email": "liacovides11@oaic.gov.au",
+    "birthDate": "1997-08-25",
+    "basicSalary": 15192299,
+    "status": "ACTIVE",
+    "group": "Customer Service",
+    "description": "2023-01-03 15:00:28"
+  }, {
+    "username": "cault12",
+    "firstName": "Corbie",
+    "lastName": "Ault",
+    "email": "cault12@clickbank.net",
+    "birthDate": "2004-11-19",
+    "basicSalary": 22309878,
+    "status": "ACTIVE",
+    "group": "Marketing",
+    "description": "2023-03-21 23:45:59"
+  }, {
+    "username": "rbischoff13",
+    "firstName": "Raye",
+    "lastName": "Bischoff",
+    "email": "rbischoff13@hubpages.com",
+    "birthDate": "1990-12-11",
+    "basicSalary": 16832850,
+    "status": "INACTIVE",
+    "group": "Finance",
+    "description": "2023-02-15 04:54:04"
+  }, {
+    "username": "mcuruclis14",
+    "firstName": "Mile",
+    "lastName": "Curuclis",
+    "email": "mcuruclis14@netlog.com",
+    "birthDate": "1998-04-06",
+    "basicSalary": 15835590,
+    "status": "ACTIVE",
+    "group": "Research and Development",
+    "description": "2023-06-11 03:21:58"
+  }, {
+    "username": "wbukac15",
+    "firstName": "Wheeler",
+    "lastName": "Bukac",
+    "email": "wbukac15@google.com.hk",
+    "birthDate": "1989-02-04",
+    "basicSalary": 5510141,
+    "status": "INACTIVE",
+    "group": "Marketing",
+    "description": "2023-10-27 06:46:06"
+  }, {
+    "username": "lfiveash16",
+    "firstName": "Lucilia",
+    "lastName": "Fiveash",
+    "email": "lfiveash16@businessinsider.com",
+    "birthDate": "1990-11-01",
+    "basicSalary": 23013741,
+    "status": "ACTIVE",
+    "group": "Operations",
+    "description": "2022-12-05 06:06:22"
+  }, {
+    "username": "tlazenbury17",
+    "firstName": "Tersina",
+    "lastName": "Lazenbury",
+    "email": "tlazenbury17@bbb.org",
+    "birthDate": "1973-05-23",
+    "basicSalary": 19040250,
+    "status": "INACTIVE",
+    "group": "Marketing",
+    "description": "2023-05-14 10:19:28"
+  }, {
+    "username": "stinan18",
+    "firstName": "Sybille",
+    "lastName": "Tinan",
+    "email": "stinan18@usa.gov",
+    "birthDate": "2002-11-12",
+    "basicSalary": 9504641,
+    "status": "INACTIVE",
+    "group": "Research and Development",
+    "description": "2023-06-28 12:42:55"
+  }, {
+    "username": "emaxweell19",
+    "firstName": "Estele",
+    "lastName": "Maxweell",
+    "email": "emaxweell19@abc.net.au",
+    "birthDate": "1987-01-28",
+    "basicSalary": 24277618,
+    "status": "INACTIVE",
+    "group": "Customer Service",
+    "description": "2022-12-11 14:14:29"
+  }, {
+    "username": "vmaccoll1a",
+    "firstName": "Valina",
+    "lastName": "MacColl",
+    "email": "vmaccoll1a@ibm.com",
+    "birthDate": "1999-06-18",
+    "basicSalary": 19903467,
+    "status": "ACTIVE",
+    "group": "Operations",
+    "description": "2023-10-20 07:46:41"
+  }, {
+    "username": "csummerlad1b",
+    "firstName": "Cilka",
+    "lastName": "Summerlad",
+    "email": "csummerlad1b@ucoz.ru",
+    "birthDate": "1992-12-16",
+    "basicSalary": 4916878,
+    "status": "INACTIVE",
+    "group": "Customer Service",
+    "description": "2023-09-09 14:36:55"
+  }, {
+    "username": "mvanyakin1c",
+    "firstName": "Mavra",
+    "lastName": "Vanyakin",
+    "email": "mvanyakin1c@netvibes.com",
+    "birthDate": "1985-09-22",
+    "basicSalary": 18180654,
+    "status": "INACTIVE",
+    "group": "IT",
+    "description": "2023-03-31 14:37:09"
+  }, {
+    "username": "mkiebes1d",
+    "firstName": "Maire",
+    "lastName": "Kiebes",
+    "email": "mkiebes1d@sitemeter.com",
+    "birthDate": "1997-10-23",
+    "basicSalary": 15963693,
+    "status": "INACTIVE",
+    "group": "Marketing",
+    "description": "2023-03-11 12:47:03"
+  }, {
+    "username": "smanagh1e",
+    "firstName": "Shel",
+    "lastName": "Managh",
+    "email": "smanagh1e@multiply.com",
+    "birthDate": "1990-01-09",
+    "basicSalary": 19745357,
+    "status": "INACTIVE",
+    "group": "IT",
+    "description": "2023-09-28 12:29:14"
+  }, {
+    "username": "ytrehearne1f",
+    "firstName": "Ysabel",
+    "lastName": "Trehearne",
+    "email": "ytrehearne1f@cloudflare.com",
+    "birthDate": "1996-04-14",
+    "basicSalary": 14421561,
+    "status": "INACTIVE",
+    "group": "Legal",
+    "description": "2023-03-06 12:06:11"
+  }, {
+    "username": "dmenham1g",
+    "firstName": "Dov",
+    "lastName": "Menham",
+    "email": "dmenham1g@icio.us",
+    "birthDate": "1972-03-29",
+    "basicSalary": 21776830,
+    "status": "ACTIVE",
+    "group": "Legal",
+    "description": "2023-01-04 15:15:12"
+  }, {
+    "username": "jhilhouse1h",
+    "firstName": "Janifer",
+    "lastName": "Hilhouse",
+    "email": "jhilhouse1h@reverbnation.com",
+    "birthDate": "2000-03-27",
+    "basicSalary": 18737522,
+    "status": "INACTIVE",
+    "group": "Marketing",
+    "description": "2023-06-13 02:23:05"
+  }, {
+    "username": "qrawson1i",
+    "firstName": "Quent",
+    "lastName": "Rawson",
+    "email": "qrawson1i@japanpost.jp",
+    "birthDate": "1999-06-22",
+    "basicSalary": 12858173,
+    "status": "INACTIVE",
+    "group": "Legal",
+    "description": "2023-05-25 23:36:15"
+  }, {
+    "username": "gbrocklesby1j",
+    "firstName": "Gavra",
+    "lastName": "Brocklesby",
+    "email": "gbrocklesby1j@google.cn",
+    "birthDate": "1980-06-14",
+    "basicSalary": 16004548,
+    "status": "INACTIVE",
+    "group": "Legal",
+    "description": "2023-09-14 08:47:14"
+  }, {
+    "username": "lkasbye1k",
+    "firstName": "Loy",
+    "lastName": "Kasbye",
+    "email": "lkasbye1k@google.de",
+    "birthDate": "1993-07-13",
+    "basicSalary": 22663398,
+    "status": "INACTIVE",
+    "group": "Research and Development",
+    "description": "2023-07-02 19:08:50"
+  }, {
+    "username": "pmorigan1l",
+    "firstName": "Page",
+    "lastName": "Morigan",
+    "email": "pmorigan1l@studiopress.com",
+    "birthDate": "2002-02-16",
+    "basicSalary": 5092694,
+    "status": "ACTIVE",
+    "group": "Research and Development",
+    "description": "2023-04-13 21:11:09"
+  }, {
+    "username": "sfalkner1m",
+    "firstName": "Sigfrid",
+    "lastName": "Falkner",
+    "email": "sfalkner1m@deliciousdays.com",
+    "birthDate": "1973-09-17",
+    "basicSalary": 15323670,
+    "status": "INACTIVE",
+    "group": "Administration",
+    "description": "2023-10-31 09:25:47"
+  }, {
+    "username": "lsleightholm1n",
+    "firstName": "Leoine",
+    "lastName": "Sleightholm",
+    "email": "lsleightholm1n@toplist.cz",
+    "birthDate": "1997-10-08",
+    "basicSalary": 6958138,
+    "status": "INACTIVE",
+    "group": "Operations",
+    "description": "2023-04-06 22:36:04"
+  }, {
+    "username": "htoplin1o",
+    "firstName": "Hubert",
+    "lastName": "Toplin",
+    "email": "htoplin1o@instagram.com",
+    "birthDate": "1985-03-05",
+    "basicSalary": 10577626,
+    "status": "ACTIVE",
+    "group": "Customer Service",
+    "description": "2023-09-15 17:14:23"
+  }, {
+    "username": "ewasmer1p",
+    "firstName": "Elysha",
+    "lastName": "Wasmer",
+    "email": "ewasmer1p@discuz.net",
+    "birthDate": "1991-06-15",
+    "basicSalary": 22373487,
+    "status": "INACTIVE",
+    "group": "IT",
+    "description": "2023-02-25 15:25:19"
+  }, {
+    "username": "bfearnside1q",
+    "firstName": "Bella",
+    "lastName": "Fearnside",
+    "email": "bfearnside1q@theatlantic.com",
+    "birthDate": "1991-12-11",
+    "basicSalary": 18544659,
+    "status": "ACTIVE",
+    "group": "Finance",
+    "description": "2023-05-17 22:26:31"
+  }, {
+    "username": "dwiddup1r",
+    "firstName": "Devlen",
+    "lastName": "Widdup",
+    "email": "dwiddup1r@webmd.com",
+    "birthDate": "1989-06-29",
+    "basicSalary": 21283993,
+    "status": "INACTIVE",
+    "group": "Administration",
+    "description": "2022-12-13 22:07:33"
+  }, {
+    "username": "rjezzard1s",
+    "firstName": "Rheta",
+    "lastName": "Jezzard",
+    "email": "rjezzard1s@youku.com",
+    "birthDate": "1992-03-30",
+    "basicSalary": 13931139,
+    "status": "ACTIVE",
+    "group": "Finance",
+    "description": "2022-11-10 21:10:33"
+  }, {
+    "username": "wmelmoth1t",
+    "firstName": "Willabella",
+    "lastName": "Melmoth",
+    "email": "wmelmoth1t@wsj.com",
+    "birthDate": "1997-03-28",
+    "basicSalary": 10382681,
+    "status": "ACTIVE",
+    "group": "Legal",
+    "description": "2023-01-07 20:52:52"
+  }, {
+    "username": "pgofforth1u",
+    "firstName": "Philomena",
+    "lastName": "Gofforth",
+    "email": "pgofforth1u@wired.com",
+    "birthDate": "1995-07-20",
+    "basicSalary": 10485014,
+    "status": "INACTIVE",
+    "group": "Customer Service",
+    "description": "2023-07-01 17:30:22"
+  }, {
+    "username": "akillerby1v",
+    "firstName": "Arne",
+    "lastName": "Killerby",
+    "email": "akillerby1v@etsy.com",
+    "birthDate": "2000-01-23",
+    "basicSalary": 21565266,
+    "status": "ACTIVE",
+    "group": "Sales",
+    "description": "2022-11-12 14:47:40"
+  }, {
+    "username": "crichings1w",
+    "firstName": "Corinne",
+    "lastName": "Richings",
+    "email": "crichings1w@hud.gov",
+    "birthDate": "1971-03-02",
+    "basicSalary": 9368717,
+    "status": "INACTIVE",
+    "group": "Sales",
+    "description": "2023-05-29 12:43:30"
+  }, {
+    "username": "cbromfield1x",
+    "firstName": "Claribel",
+    "lastName": "Bromfield",
+    "email": "cbromfield1x@wikipedia.org",
+    "birthDate": "1974-09-02",
+    "basicSalary": 24397750,
+    "status": "INACTIVE",
+    "group": "Research and Development",
+    "description": "2023-03-16 06:25:55"
+  }, {
+    "username": "bfaughnan1y",
+    "firstName": "Bentlee",
+    "lastName": "Faughnan",
+    "email": "bfaughnan1y@economist.com",
+    "birthDate": "1991-07-13",
+    "basicSalary": 15502442,
+    "status": "ACTIVE",
+    "group": "Finance",
+    "description": "2023-10-23 14:30:35"
+  }, {
+    "username": "imorsley1z",
+    "firstName": "Iggie",
+    "lastName": "Morsley",
+    "email": "imorsley1z@technorati.com",
+    "birthDate": "1999-02-08",
+    "basicSalary": 9693515,
+    "status": "ACTIVE",
+    "group": "Administration",
+    "description": "2023-01-08 19:28:23"
+  }, {
+    "username": "aburston20",
+    "firstName": "Anjanette",
+    "lastName": "Burston",
+    "email": "aburston20@umich.edu",
+    "birthDate": "1981-04-07",
+    "basicSalary": 11617871,
+    "status": "ACTIVE",
+    "group": "Operations",
+    "description": "2023-05-08 21:28:21"
+  }, {
+    "username": "bwyke21",
+    "firstName": "Bartlett",
+    "lastName": "Wyke",
+    "email": "bwyke21@about.com",
+    "birthDate": "2001-01-23",
+    "basicSalary": 5854783,
+    "status": "ACTIVE",
+    "group": "Marketing",
+    "description": "2023-02-25 06:38:38"
+  }, {
+    "username": "jheinzel22",
+    "firstName": "Jayne",
+    "lastName": "Heinzel",
+    "email": "jheinzel22@wsj.com",
+    "birthDate": "1999-07-27",
+    "basicSalary": 22596762,
+    "status": "INACTIVE",
+    "group": "Customer Service",
+    "description": "2023-01-07 11:16:03"
+  }, {
+    "username": "bbunnell23",
+    "firstName": "Billie",
+    "lastName": "Bunnell",
+    "email": "bbunnell23@opensource.org",
+    "birthDate": "1980-11-01",
+    "basicSalary": 21915327,
+    "status": "ACTIVE",
+    "group": "Administration",
+    "description": "2023-07-21 07:22:44"
+  }, {
+    "username": "gdowyer24",
+    "firstName": "Gabriele",
+    "lastName": "Dowyer",
+    "email": "gdowyer24@google.com",
+    "birthDate": "1981-09-12",
+    "basicSalary": 18849295,
+    "status": "INACTIVE",
+    "group": "Sales",
+    "description": "2022-12-22 21:47:07"
+  }, {
+    "username": "gbraam25",
+    "firstName": "Georgi",
+    "lastName": "Braam",
+    "email": "gbraam25@blogs.com",
+    "birthDate": "2005-04-13",
+    "basicSalary": 20661669,
+    "status": "INACTIVE",
+    "group": "Sales",
+    "description": "2023-04-24 13:35:29"
+  }, {
+    "username": "trosgen26",
+    "firstName": "Teddi",
+    "lastName": "Rosgen",
+    "email": "trosgen26@nps.gov",
+    "birthDate": "1979-05-24",
+    "basicSalary": 11513731,
+    "status": "INACTIVE",
+    "group": "Finance",
+    "description": "2022-11-15 08:30:02"
+  }, {
+    "username": "flegrove27",
+    "firstName": "Felicio",
+    "lastName": "Le Grove",
+    "email": "flegrove27@census.gov",
+    "birthDate": "1993-05-29",
+    "basicSalary": 10062517,
+    "status": "INACTIVE",
+    "group": "Administration",
+    "description": "2023-03-13 09:08:04"
+  }, {
+    "username": "dmacenzy28",
+    "firstName": "Darlene",
+    "lastName": "Macenzy",
+    "email": "dmacenzy28@wikia.com",
+    "birthDate": "1977-03-14",
+    "basicSalary": 13395276,
+    "status": "ACTIVE",
+    "group": "Human Resources",
+    "description": "2023-07-05 11:21:11"
+  }, {
+    "username": "rbakewell29",
+    "firstName": "Rhonda",
+    "lastName": "Bakewell",
+    "email": "rbakewell29@multiply.com",
+    "birthDate": "1996-11-25",
+    "basicSalary": 22894403,
+    "status": "ACTIVE",
+    "group": "Marketing",
+    "description": "2023-05-28 21:22:17"
+  }, {
+    "username": "cmccowan2a",
+    "firstName": "Chlo",
+    "lastName": "McCowan",
+    "email": "cmccowan2a@ameblo.jp",
+    "birthDate": "1984-09-24",
+    "basicSalary": 16511891,
+    "status": "ACTIVE",
+    "group": "Research and Development",
+    "description": "2023-01-05 00:01:39"
+  }, {
+    "username": "vgoodswen2b",
+    "firstName": "Viviyan",
+    "lastName": "Goodswen",
+    "email": "vgoodswen2b@clickbank.net",
+    "birthDate": "2004-03-28",
+    "basicSalary": 16077257,
+    "status": "ACTIVE",
+    "group": "Research and Development",
+    "description": "2023-06-05 09:41:57"
+  }, {
+    "username": "rswanger2c",
+    "firstName": "Rosetta",
+    "lastName": "Swanger",
+    "email": "rswanger2c@indiatimes.com",
+    "birthDate": "1986-01-16",
+    "basicSalary": 4848264,
+    "status": "INACTIVE",
+    "group": "Operations",
+    "description": "2023-06-24 03:49:57"
+  }, {
+    "username": "bblazey2d",
+    "firstName": "Blithe",
+    "lastName": "Blazey",
+    "email": "bblazey2d@networkadvertising.org",
+    "birthDate": "1984-04-11",
+    "basicSalary": 8841480,
+    "status": "ACTIVE",
+    "group": "Finance",
+    "description": "2023-01-12 04:51:52"
+  }, {
+    "username": "aacton2e",
+    "firstName": "Aili",
+    "lastName": "Acton",
+    "email": "aacton2e@telegraph.co.uk",
+    "birthDate": "1996-06-05",
+    "basicSalary": 12296604,
+    "status": "INACTIVE",
+    "group": "Finance",
+    "description": "2023-10-07 20:44:17"
+  }, {
+    "username": "ltomisch2f",
+    "firstName": "Lazaro",
+    "lastName": "Tomisch",
+    "email": "ltomisch2f@gov.uk",
+    "birthDate": "1975-11-11",
+    "basicSalary": 4434303,
+    "status": "INACTIVE",
+    "group": "Research and Development",
+    "description": "2023-10-18 08:35:40"
+  }, {
+    "username": "ldungate2g",
+    "firstName": "Lilia",
+    "lastName": "Dungate",
+    "email": "ldungate2g@addthis.com",
+    "birthDate": "2000-12-21",
+    "basicSalary": 12826498,
+    "status": "INACTIVE",
+    "group": "Customer Service",
+    "description": "2023-08-10 07:46:40"
+  }, {
+    "username": "bbartleman2h",
+    "firstName": "Benedetta",
+    "lastName": "Bartleman",
+    "email": "bbartleman2h@cbslocal.com",
+    "birthDate": "1998-01-24",
+    "basicSalary": 24508579,
+    "status": "INACTIVE",
+    "group": "Legal",
+    "description": "2023-05-09 16:04:49"
+  }, {
+    "username": "rdreschler2i",
+    "firstName": "Rainer",
+    "lastName": "Dreschler",
+    "email": "rdreschler2i@soundcloud.com",
+    "birthDate": "1971-07-22",
+    "basicSalary": 17012002,
+    "status": "INACTIVE",
+    "group": "Sales",
+    "description": "2023-10-11 21:47:35"
+  }, {
+    "username": "nbrecon2j",
+    "firstName": "Nessi",
+    "lastName": "Brecon",
+    "email": "nbrecon2j@163.com",
+    "birthDate": "1977-02-03",
+    "basicSalary": 8738225,
+    "status": "INACTIVE",
+    "group": "Finance",
+    "description": "2022-12-05 19:55:46"
+  }, {
+    "username": "fvalero2k",
+    "firstName": "Friedrich",
+    "lastName": "Valero",
+    "email": "fvalero2k@reverbnation.com",
+    "birthDate": "1991-01-06",
+    "basicSalary": 15686036,
+    "status": "ACTIVE",
+    "group": "Research and Development",
+    "description": "2023-06-26 11:45:41"
+  }, {
+    "username": "gdishman2l",
+    "firstName": "Gilberte",
+    "lastName": "Dishman",
+    "email": "gdishman2l@bravesites.com",
+    "birthDate": "2003-08-21",
+    "basicSalary": 7528554,
+    "status": "INACTIVE",
+    "group": "Customer Service",
+    "description": "2023-11-05 08:15:14"
+  }, {
+    "username": "fcanelas2m",
+    "firstName": "Fonsie",
+    "lastName": "Canelas",
+    "email": "fcanelas2m@privacy.gov.au",
+    "birthDate": "1998-12-14",
+    "basicSalary": 10171965,
+    "status": "INACTIVE",
+    "group": "Marketing",
+    "description": "2023-10-29 15:13:50"
+  }, {
+    "username": "gmoorerud2n",
+    "firstName": "Gratia",
+    "lastName": "Moorerud",
+    "email": "gmoorerud2n@google.cn",
+    "birthDate": "1990-01-11",
+    "basicSalary": 23787024,
+    "status": "ACTIVE",
+    "group": "Legal",
+    "description": "2023-10-29 23:32:35"
+  }, {
+    "username": "jarmstead2o",
+    "firstName": "Jemie",
+    "lastName": "Armstead",
+    "email": "jarmstead2o@pagesperso-orange.fr",
+    "birthDate": "1984-03-12",
+    "basicSalary": 20187641,
+    "status": "ACTIVE",
+    "group": "Research and Development",
+    "description": "2023-05-09 08:12:32"
+  }, {
+    "username": "bhouselee2p",
+    "firstName": "Breanne",
+    "lastName": "Houselee",
+    "email": "bhouselee2p@businessinsider.com",
+    "birthDate": "1986-11-29",
+    "basicSalary": 9733262,
+    "status": "ACTIVE",
+    "group": "Research and Development",
+    "description": "2023-04-12 00:11:55"
+  }, {
+    "username": "jheindrich2q",
+    "firstName": "Jacquette",
+    "lastName": "Heindrich",
+    "email": "jheindrich2q@scientificamerican.com",
+    "birthDate": "1974-08-19",
+    "basicSalary": 23150925,
+    "status": "ACTIVE",
+    "group": "Administration",
+    "description": "2023-11-05 16:58:25"
+  }, {
+    "username": "pditts2r",
+    "firstName": "Petrina",
+    "lastName": "Ditts",
+    "email": "pditts2r@google.es",
+    "birthDate": "1972-03-01",
+    "basicSalary": 15771738,
+    "status": "INACTIVE",
+    "group": "IT",
+    "description": "2023-05-04 23:20:11"
+  }]
+  
