@@ -45,13 +45,14 @@ export class EmployeeAddComponent {
       this.initForms();
     }
     
+    // this.initForms();
   }
 
   initForms() {
     this.employeeForm = this.fb.group({
-      username: new FormControl(null, Validators.required),
-      firstName: new FormControl(null, Validators.required),
-      lastName: new FormControl(null, Validators.required),
+      username: new FormControl(null, [Validators.required, Validators.pattern("^[a-zA-Z0-9]+([._]?[a-zA-Z0-9]+)*$")]),
+      firstName: new FormControl(null, [Validators.required, Validators.pattern("^[a-zA-Z ]*$")]),
+      lastName: new FormControl(null,[Validators.required, Validators.pattern("^[a-zA-Z ]*$")]),
       email: new FormControl('', [Validators.required, Validators.pattern("^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$")]),
       birthDate: [new Date(), [Validators.required]],
       basicSalary: [0, [Validators.required, Validators.min(1)]],

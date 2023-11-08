@@ -9,6 +9,15 @@
                 <input pInputText id="username" placeholder="Enter username" aria-describedby="username-help" formControlName="username"/>
                 
                 <div *ngIf="f['username'].hasError('required') && f['username'].touched" class="text-sm text-red-500">Required field</div>
+                <div *ngIf="f['username'].hasError('pattern') && f['username'].touched" class="text-sm text-red-500">
+                    <ul>
+                        <li>Username can only contain alphanumeric characters, underscore, and dot</li>
+                        <li>Username cannot end on an underscore or dot</li>
+                        <li>Underscore and dot can't be next to each other</li>
+                        <li>Underscore or dot can't be used multiple times in a row</li>
+                    </ul>
+                    
+                </div>
             </div>
             
             <div class="col-12">
@@ -18,6 +27,7 @@
                         <input pInputText id="firstName" placeholder="Enter first name" aria-describedby="firstName-help" formControlName="firstName"/>
                     
                         <div *ngIf="f['firstName'].hasError('required') && f['firstName'].touched" class="text-sm text-red-500">Required field</div>
+                        <div *ngIf="f['firstName'].hasError('pattern') && f['firstName'].touched" class="text-sm text-red-500">Please only use alphabets</div>
                     </div>
         
                     <div class="col-12 md:col-6 flex flex-column gap-2">
@@ -25,6 +35,7 @@
                         <input pInputText id="lastName" placeholder="Enter last name" aria-describedby="lastName-help" formControlName="lastName"/>
                     
                         <div *ngIf="f['lastName'].hasError('required') && f['lastName'].touched" class="text-sm text-red-500">Required field</div>
+                        <div *ngIf="f['lastName'].hasError('pattern') && f['lastName'].touched" class="text-sm text-red-500">Please only use alphabets</div>
                     </div>
                 </div>
             </div>
