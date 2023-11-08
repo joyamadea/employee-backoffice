@@ -1,55 +1,54 @@
-<div class="card m-5">
-    <p class="text-2xl w-12 font-semibold">Employee Detail - {{ dummy.firstName}} {{ dummy.lastName }}</p>
-
+<div class="card md:mx-8 md:px-8 mt-8 mx-4 px-0 justify-content-center flex">
     
-        <div class="grid nested-grid gap-2">
-            
+        <div class="grid nested-grid gap-2 md:w-5 w-12">
+            <p class="text-2xl w-12 font-semibold">Employee Detail - {{ dummy.firstName}} {{ dummy.lastName }}</p>
+
             <div class="col-12 flex flex-column gap-2">
-                <label htmlFor="username">Username</label>
+                <label htmlFor="username" class="font-semibold text-lg">Username</label>
                 {{ dummy.username }}
             </div>
             
             <div class="col-12">
                 <div class="grid">
                     <div class="col-12 md:col-6 flex flex-column gap-2">
-                        <label htmlFor="firstName">First Name</label>
+                        <label htmlFor="firstName" class="font-semibold text-lg">First Name</label>
                         {{ dummy.firstName }}
                     </div>
         
                     <div class="col-12 md:col-6 flex flex-column gap-2">
-                        <label htmlFor="lastName">Last Name</label>
+                        <label htmlFor="lastName" class="font-semibold text-lg">Last Name</label>
                         {{ dummy.lastName }}
                     </div>
                 </div>
             </div>
 
             <div class="col-12 flex flex-column gap-2">
-                <label htmlFor="email">Email</label>
+                <label htmlFor="email" class="font-semibold text-lg">Email</label>
                 {{ dummy.email }}
             </div>
 
             <div class="col-12 flex flex-column gap-2">
-                <label htmlFor="birthDate">Birth Date</label>
+                <label htmlFor="birthDate" class="font-semibold text-lg">Birth Date</label>
                 {{ dummy.birthDate | date: 'd MMMM YYYY' }}
             </div>
 
             <div class="col-12 flex flex-column gap-2">
-                <label htmlFor="basicSalary">Basic Salary</label>
+                <label htmlFor="basicSalary" class="font-semibold text-lg">Basic Salary</label>
                 {{ dummy.basicSalary | currency: 'IDR'}}
             </div>
 
             <div class="col-12 flex flex-column gap-2">
-                <label htmlFor="status">Status</label>
+                <label htmlFor="status" class="font-semibold text-lg">Status</label>
                 {{ dummy.status }}
             </div>
 
             <div class="col-12 flex flex-column gap-2">
-                <label htmlFor="group">Group</label>
+                <label htmlFor="group" class="font-semibold text-lg">Group</label>
                 {{ dummy.group }}
             </div>
 
             <div class="col-12 flex flex-column gap-2">
-                <label htmlFor="description">Description</label>
+                <label htmlFor="description" class="font-semibold text-lg">Description</label>
                 {{ dummy.description | date: 'd MMMM YYYY hh:mm:ss' }}
             </div>
 

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -14,7 +15,10 @@ export class LoginComponent {
   }
   fail = false;
 
-  constructor(private fb: FormBuilder) {}
+  constructor(
+    private fb: FormBuilder,
+    private router: Router
+  ) {}
   ngOnInit() {
     this.initForms();
   }
@@ -28,7 +32,8 @@ export class LoginComponent {
 
   submitLogin() {
     if (this.loginForm.value.username == this.dummyLogin.username && this.loginForm.value.password == this.dummyLogin.password) {
-      this.fail = false ;
+      this.fail = false;
+      this.router.navigateByUrl('/employee');
     } else {
       this.fail = true;
     }
