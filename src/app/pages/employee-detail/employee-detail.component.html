@@ -1,0 +1,58 @@
+<div class="card m-5">
+    <p class="text-2xl w-12 font-semibold">Employee Detail - {{ dummy.firstName}} {{ dummy.lastName }}</p>
+
+    
+        <div class="grid nested-grid gap-2">
+            
+            <div class="col-12 flex flex-column gap-2">
+                <label htmlFor="username">Username</label>
+                {{ dummy.username }}
+            </div>
+            
+            <div class="col-12">
+                <div class="grid">
+                    <div class="col-12 md:col-6 flex flex-column gap-2">
+                        <label htmlFor="firstName">First Name</label>
+                        {{ dummy.firstName }}
+                    </div>
+        
+                    <div class="col-12 md:col-6 flex flex-column gap-2">
+                        <label htmlFor="lastName">Last Name</label>
+                        {{ dummy.lastName }}
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 flex flex-column gap-2">
+                <label htmlFor="email">Email</label>
+                {{ dummy.email }}
+            </div>
+
+            <div class="col-12 flex flex-column gap-2">
+                <label htmlFor="birthDate">Birth Date</label>
+                {{ dummy.birthDate | date: 'd MMMM YYYY' }}
+            </div>
+
+            <div class="col-12 flex flex-column gap-2">
+                <label htmlFor="basicSalary">Basic Salary</label>
+                {{ dummy.basicSalary | currency: 'IDR'}}
+            </div>
+
+            <div class="col-12 flex flex-column gap-2">
+                <label htmlFor="status">Status</label>
+                {{ dummy.status }}
+            </div>
+
+            <div class="col-12 flex flex-column gap-2">
+                <label htmlFor="group">Group</label>
+                {{ dummy.group }}
+            </div>
+
+            <div class="col-12 flex flex-column gap-2">
+                <label htmlFor="description">Description</label>
+                {{ dummy.description | date: 'd MMMM YYYY hh:mm:ss' }}
+            </div>
+
+            <p-button label="OK" type="button" (onClick)="goBack()"></p-button>
+        </div>
+</div>

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import employee from '../../../shared/employee.json';
 import { Employee } from 'src/shared/employee';
 import { MessageService } from 'primeng/api';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-employee-home',
@@ -13,19 +14,23 @@ export class EmployeeHomeComponent {
   emp = employee;
 
   constructor(
-    private messageService: MessageService
+    private messageService: MessageService,
+    private router: Router
   ) {}
 
   ngOnInit() {
-    console.log('employee', employee[0].username);
   }
 
   onRowSelect(event: any) {
-    console.log('open detail', event.data.username)
+    this.router.navigateByUrl('employee-detail/' + event.data.username, {
+      state: event.data
+    })
+    // this.router.navigate()
+    // console.log('open detail', event.data.username)
   }
 
   addEmployee() {
-    
+    this.router.navigateByUrl('/employee-add');
   }
 
   editEmployee(username: any) {

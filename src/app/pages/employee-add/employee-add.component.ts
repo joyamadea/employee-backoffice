@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
+import { MessageService } from 'primeng/api';
 
 @Component({
   selector: 'app-employee-add',
   templateUrl: './employee-add.component.html',
-  styleUrls: ['./employee-add.component.scss']
+  styleUrls: ['./employee-add.component.scss'],
+  providers: [MessageService]
 })
 export class EmployeeAddComponent {
   employeeForm!: FormGroup;
@@ -28,7 +31,11 @@ export class EmployeeAddComponent {
   ]
   
 
-  constructor(private fb: FormBuilder) {}
+  constructor(
+    private fb: FormBuilder,
+    private router: Router,
+    private messageService: MessageService
+    ) {}
 
   ngOnInit() {
     this.initForms();
@@ -55,5 +62,11 @@ export class EmployeeAddComponent {
   onSubmit() {
 
     console.log('sdf', this.employeeForm.value);
+    // this.messageService.add({ severity: 'success', summary: 'Added', detail: `Succesfully Added` });
+    this.router.navigateByUrl('/employee');
+  }
+
+  onCancel() {
+    this.router.navigateByUrl('/employee');
   }
 }

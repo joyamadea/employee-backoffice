@@ -3,6 +3,7 @@
 
     <form class="justify-content-center" [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
         <div class="grid nested-grid gap-2">
+            <p-toast></p-toast>
             
             <div class="col-12 flex flex-column gap-2">
                 <label htmlFor="username">Username</label>
@@ -53,8 +54,8 @@
                 <p-calendar styleClass="w-12" inputStyleClass="w-12" [maxDate]="maxDate" formControlName="description"></p-calendar>
             </div>
 
-            <p-button class="" label="Cancel" type="button" [outlined]="true" severity="danger"></p-button>
-            <p-button class="" label="Save" type="submit" [disabled]="employeeForm.invalid"></p-button>
+            <p-button (onClick)="onCancel()" label="Cancel" type="button" [outlined]="true" severity="danger"></p-button>
+            <p-button label="Save" type="submit" [disabled]="employeeForm.invalid"></p-button>
         </div>
     </form>
 </div>

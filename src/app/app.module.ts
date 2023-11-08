@@ -16,13 +16,15 @@ import { EmployeeAddComponent } from './pages/employee-add/employee-add.componen
 import { CalendarModule } from 'primeng/calendar';
 import { DropdownModule } from 'primeng/dropdown';
 import { InputNumberModule } from 'primeng/inputnumber';
+import { EmployeeDetailComponent } from './pages/employee-detail/employee-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     EmployeeHomeComponent,
-    EmployeeAddComponent
+    EmployeeAddComponent,
+    EmployeeDetailComponent
   ],
   imports: [
     BrowserModule,

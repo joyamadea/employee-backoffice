@@ -13,7 +13,7 @@
         [rowsPerPageOptions]="[5, 10, 25, 50]"
         (onRowSelect)="onRowSelect($event)"
         selectionMode="single"
-        [globalFilterFields]="['username','group']"
+        [globalFilterFields]="['username','firstName', 'lastName', 'group']"
     >
         <ng-template pTemplate="caption">
             <div class="flex">
