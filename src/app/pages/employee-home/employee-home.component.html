@@ -26,17 +26,67 @@
         </ng-template>
         <ng-template pTemplate="header">
             <tr>
-                <th pSortableColumn="username" style="width: 20%">Username <p-sortIcon field="username"></p-sortIcon></th>
-                <th pSortableColumn="firstName" style="width: 20%">Name <p-sortIcon field="username"></p-sortIcon></th>
-                <th pSortableColumn="group" style="width: 20%">Group <p-sortIcon field="group"></p-sortIcon></th>
-                <th pSortableColumn="status" style="width: 20%">Status <p-sortIcon field="status"></p-sortIcon></th>
+                <th pSortableColumn="username" style="width: 15%">
+                    Username <p-sortIcon field="username"></p-sortIcon>
+                </th>
+                <th pSortableColumn="firstName" style="width: 15%">
+                    First Name <p-sortIcon field="firstName"></p-sortIcon>
+                </th>
+                <th pSortableColumn="lastName" style="width: 15%">
+                    Last Name <p-sortIcon field="lastName"></p-sortIcon>
+                </th>
+                <th pSortableColumn="group" style="width: 20%">
+                    Group <p-sortIcon field="group"></p-sortIcon>
+                </th>
+                <th pSortableColumn="status" style="width: 15%">
+                    Status <p-sortIcon field="status"></p-sortIcon>
+                </th>
                 <th style="width: 20%">Actions</th>
             </tr>
+            <!-- <tr>
+                <th>
+                    <p-columnFilter type="text" field="username"></p-columnFilter>
+                </th>
+                <th>
+                    <p-columnFilter type="text" field="firstName"></p-columnFilter>
+                </th>
+                <th>
+                    <p-columnFilter type="text" field="lastName"></p-columnFilter>
+                </th>   
+                <th>
+                    <p-columnFilter field="group" matchMode="in" [showMenu]="false">
+                        <ng-template pTemplate="filter" let-groupList let-filter="filterCallback">
+                            <p-multiSelect [(ngModel)]="group" [options]="groupList" placeholder="Any" (onChange)="filter($event.value)" optionLabel="name">
+                                <ng-template let-groupList pTemplate="item">
+                                    <div class="inline-block vertical-align-middle">
+                                        <span class="ml-1 mt-1">{{ group.name }}</span>
+                                    </div>
+                                </ng-template>
+                            </p-multiSelect>
+                        </ng-template>
+                    </p-columnFilter>
+                </th>
+                <th>
+                    <p-columnFilter field="status" matchMode="equals" [showMenu]="false">
+                        <ng-template pTemplate="filter" let-statusList let-filter="filterCallback">
+                            <p-dropdown [(ngModel)]="status" [options]="statusList" (onChange)="filter($event.value)" placeholder="Any" [showClear]="true">
+                                <ng-template let-statusList pTemplate="item">
+                                    <div class="inline-block vertical-align-middle">
+                                        <span class="ml-1 mt-1">{{ status.name }}</span>
+                                    </div>
+                                </ng-template>
+                            </p-dropdown>
+                        </ng-template>
+                    </p-columnFilter>
+                </th>
+                <th></th>
+            </tr> -->
         </ng-template>
         <ng-template pTemplate="body" let-emp>
             <tr [pSelectableRow]="emp">
                 <td>{{ emp.username }}</td>
-                <td>{{ emp.firstName }} {{ emp.lastName }}</td>
+                <td>{{ emp.firstName }}</td>
+                <td>{{ emp.lastName }}</td>
                 <td>{{ emp.group }}</td>
                 <td>{{ emp.status }}</td>
                 <td>

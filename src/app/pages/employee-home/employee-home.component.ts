@@ -12,6 +12,26 @@ import { Router } from '@angular/router';
 })
 export class EmployeeHomeComponent {
   emp = employee;
+  group: any;
+  status: any;
+  groupList = [
+    { name: "Sales", code: "Sales"},
+    { name: "Marketing", code: "Marketing"},
+    { name: "Finance", code: "Finance"},
+    { name: "Human Resources", code: "Human Resources"},
+    { name: "IT", code: "IT"},
+    { name: "Operations", code: "Operations"},
+    { name: "Customer Service", code: "Customer Service"},
+    { name: "Research and Development", code: "Research and Development"},
+    { name: "Legal", code: "Legal"},
+    { name: "Administration", code: "Administration"},
+  ];
+
+  statusList = [
+    { name: "ACTIVE", code: "ACTIVE"},
+    { name: "INACTIVE", code: "INACTIVE"}
+  ]
+  
 
   constructor(
     private messageService: MessageService,

@@ -6,56 +6,71 @@
             <p-toast></p-toast>
             
             <div class="col-12 flex flex-column gap-2">
-                <label htmlFor="username">Username</label>
+                <label htmlFor="username">Username *</label>
                 <input pInputText id="username" placeholder="Enter username" aria-describedby="username-help" formControlName="username"/>
+                
+                <div *ngIf="f['username'].hasError('required') && f['username'].touched" class="text-sm text-red-500">Required field</div>
             </div>
             
             <div class="col-12">
                 <div class="grid">
                     <div class="col-12 md:col-6 flex flex-column gap-2">
-                        <label htmlFor="firstName">First Name</label>
+                        <label htmlFor="firstName">First Name *</label>
                         <input pInputText id="firstName" placeholder="Enter first name" aria-describedby="firstName-help" formControlName="firstName"/>
+                    
+                        <div *ngIf="f['firstName'].hasError('required') && f['firstName'].touched" class="text-sm text-red-500">Required field</div>
                     </div>
         
                     <div class="col-12 md:col-6 flex flex-column gap-2">
-                        <label htmlFor="lastName">Last Name</label>
+                        <label htmlFor="lastName">Last Name *</label>
                         <input pInputText id="lastName" placeholder="Enter last name" aria-describedby="lastName-help" formControlName="lastName"/>
+                    
+                        <div *ngIf="f['lastName'].hasError('required') && f['lastName'].touched" class="text-sm text-red-500">Required field</div>
                     </div>
                 </div>
             </div>
 
             <div class="col-12 flex flex-column gap-2">
-                <label htmlFor="email">Email</label>
+                <label htmlFor="email">Email *</label>
                 <input pInputText id="email" placeholder="john.doe@mail.com" aria-describedby="email-help" formControlName="email"/>
+            
+                <div *ngIf="f['email'].hasError('required') && f['email'].touched" class="text-sm text-red-500">Required field</div>
+                <div *ngIf="f['email'].hasError('pattern') && f['email'].dirty" class="text-sm text-red-500">Please use a valid email</div>
             </div>
 
             <div class="col-12 flex flex-column gap-2">
-                <label htmlFor="birthDate">Birth Date</label>
+                <label htmlFor="birthDate">Birth Date *</label>
                 <p-calendar styleClass="w-12" inputStyleClass="w-12" [maxDate]="maxDate" formControlName="birthDate"></p-calendar>
             </div>
 
             <div class="col-12 flex flex-column gap-2">
-                <label htmlFor="basicSalary">Basic Salary</label>
+                <label htmlFor="basicSalary">Basic Salary *</label>
                 <p-inputNumber styleClass="w-12" inputStyleClass="w-12" inputId="currency-germany" formControlName="basicSalary" mode="currency" currency="IDR"></p-inputNumber>
+            
+                <div *ngIf="f['basicSalary'].hasError('min') && f['basicSalary'].touched" class="text-sm text-red-500">Required field</div>
             </div>
 
             <div class="col-12 flex flex-column gap-2">
-                <label htmlFor="status">Status</label>
+                <label htmlFor="status">Status *</label>
                 <p-dropdown styleClass="w-12" inputStyleClass="w-12" [options]="statusList" formControlName="status" optionLabel="name" placeholder="Select a Status"></p-dropdown>
+            
+                <div *ngIf="f['status'].hasError('required') && f['status'].touched" class="text-sm text-red-500">Required field</div>
             </div>
 
             <div class="col-12 flex flex-column gap-2">
-                <label htmlFor="group">Group</label>
+                <label htmlFor="group">Group *</label>
                 <p-dropdown styleClass="w-12" inputStyleClass="w-12" [options]="groupList" formControlName="group" optionLabel="name" [filter]="true" filterBy="name" [showClear]="true" placeholder="Select a Group"></p-dropdown>
+            
+                <div *ngIf="f['group'].hasError('required') && f['group'].touched" class="text-sm text-red-500">Required field</div>
             </div>
 
             <div class="col-12 flex flex-column gap-2">
-                <label htmlFor="description">Description</label>
+                <label htmlFor="description">Description *</label>
                 <p-calendar styleClass="w-12" inputStyleClass="w-12" [maxDate]="maxDate" formControlName="description"></p-calendar>
             </div>
 
             <p-button (onClick)="onCancel()" label="Cancel" type="button" [outlined]="true" severity="danger"></p-button>
-            <p-button label="Save" type="submit" [disabled]="employeeForm.invalid"></p-button>
+            <p-button label="Save" type="submit"></p-button>
         </div>
     </form>
 </div>
