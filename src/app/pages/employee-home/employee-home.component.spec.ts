@@ -1,6 +1,9 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { EmployeeHomeComponent } from './employee-home.component';
+import { TableModule } from 'primeng/table';
+import { ButtonModule } from 'primeng/button';
+import { ToastModule } from 'primeng/toast';
 
 describe('EmployeeHomeComponent', () => {
   let component: EmployeeHomeComponent;
@@ -8,7 +11,12 @@ describe('EmployeeHomeComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [EmployeeHomeComponent]
+      declarations: [EmployeeHomeComponent],
+      imports: [
+        TableModule,
+        ButtonModule,
+        ToastModule
+      ]
     });
     fixture = TestBed.createComponent(EmployeeHomeComponent);
     component = fixture.componentInstance;

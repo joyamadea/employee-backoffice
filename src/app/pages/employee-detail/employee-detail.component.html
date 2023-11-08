@@ -1,55 +1,55 @@
 <div class="card md:mx-8 md:px-8 mt-8 mx-4 px-0 justify-content-center flex">
     
         <div class="grid nested-grid gap-2 md:w-5 w-12">
-            <p class="text-2xl w-12 font-semibold">Employee Detail - {{ dummy.firstName}} {{ dummy.lastName }}</p>
+            <p class="text-2xl w-12 font-semibold">Employee Detail - {{ empDetail?.firstName}} {{ empDetail?.lastName }}</p>
 
             <div class="col-12 flex flex-column gap-2">
                 <label htmlFor="username" class="font-semibold text-lg">Username</label>
-                {{ dummy.username }}
+                {{ empDetail?.username }}
             </div>
             
             <div class="col-12">
                 <div class="grid">
                     <div class="col-12 md:col-6 flex flex-column gap-2">
                         <label htmlFor="firstName" class="font-semibold text-lg">First Name</label>
-                        {{ dummy.firstName }}
+                        {{ empDetail?.firstName }}
                     </div>
         
                     <div class="col-12 md:col-6 flex flex-column gap-2">
                         <label htmlFor="lastName" class="font-semibold text-lg">Last Name</label>
-                        {{ dummy.lastName }}
+                        {{ empDetail?.lastName }}
                     </div>
                 </div>
             </div>
 
             <div class="col-12 flex flex-column gap-2">
                 <label htmlFor="email" class="font-semibold text-lg">Email</label>
-                {{ dummy.email }}
+                {{ empDetail?.email }}
             </div>
 
             <div class="col-12 flex flex-column gap-2">
                 <label htmlFor="birthDate" class="font-semibold text-lg">Birth Date</label>
-                {{ dummy.birthDate | date: 'd MMMM YYYY' }}
+                {{ empDetail?.birthDate | date: 'd MMMM YYYY' }}
             </div>
 
             <div class="col-12 flex flex-column gap-2">
                 <label htmlFor="basicSalary" class="font-semibold text-lg">Basic Salary</label>
-                {{ dummy.basicSalary | currency: 'IDR'}}
+                {{ empDetail?.basicSalary | currency: 'IDR'}}
             </div>
 
             <div class="col-12 flex flex-column gap-2">
                 <label htmlFor="status" class="font-semibold text-lg">Status</label>
-                {{ dummy.status }}
+                {{ empDetail?.status }}
             </div>
 
             <div class="col-12 flex flex-column gap-2">
                 <label htmlFor="group" class="font-semibold text-lg">Group</label>
-                {{ dummy.group }}
+                {{ empDetail?.group }}
             </div>
 
             <div class="col-12 flex flex-column gap-2">
                 <label htmlFor="description" class="font-semibold text-lg">Description</label>
-                {{ dummy.description | date: 'd MMMM YYYY hh:mm:ss' }}
+                {{ empDetail?.description | date: 'd MMMM YYYY hh:mm:ss' }}
             </div>
 
             <p-button label="OK" type="button" (onClick)="goBack()"></p-button>

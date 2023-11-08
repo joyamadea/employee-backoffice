@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
-import { Observable, map } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-employee-detail',
@@ -8,13 +7,12 @@ import { Observable, map } from 'rxjs';
   styleUrls: ['./employee-detail.component.scss']
 })
 export class EmployeeDetailComponent {
-  dummy: any;
+  empDetail: any;
 
   constructor(
-    private router: Router,
-    public activatedRoute: ActivatedRoute
+    private router: Router
   ) {
-    this.dummy = this.router.getCurrentNavigation()?.extras.state;
+    this.empDetail = this.router.getCurrentNavigation()?.extras.state;
   }
 
   ngOnInit() {
