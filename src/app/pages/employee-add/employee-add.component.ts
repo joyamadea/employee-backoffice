@@ -39,7 +39,12 @@ export class EmployeeAddComponent {
     ) {}
 
   ngOnInit() {
-    this.initForms();
+    if (localStorage.getItem("login") === "false") {
+      this.router.navigateByUrl('/login');
+    } else {
+      this.initForms();
+    }
+    
   }
 
   initForms() {
@@ -74,7 +79,10 @@ export class EmployeeAddComponent {
         tempForm.description = dayjs(this.employeeForm.value.birthDate).format('YYYY-MM-DD hh:mm:ss');
       }
   
-      console.log('submitted form', tempForm);
+      let emp = JSON.parse(localStorage.getItem("employee")!);
+      emp.unshift(tempForm);
+      localStorage.setItem("employee", JSON.stringify(emp));
+      // console.log('emp', emp);
       // this.messageService.add({ severity: 'success', summary: 'Added', detail: `Succesfully Added` });
       this.router.navigateByUrl('/employee');
     } else {

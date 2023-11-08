@@ -19,6 +19,7 @@ export class LoginComponent {
     private fb: FormBuilder,
     private router: Router
   ) {}
+  
   ngOnInit() {
     this.initForms();
   }
@@ -34,6 +35,7 @@ export class LoginComponent {
     if (this.loginForm.value.username == this.dummyLogin.username && this.loginForm.value.password == this.dummyLogin.password) {
       this.fail = false;
       this.router.navigateByUrl('/employee');
+      localStorage.setItem("login", "true");
     } else {
       this.fail = true;
     }

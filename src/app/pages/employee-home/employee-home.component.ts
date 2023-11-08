@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
   providers: [MessageService]
 })
 export class EmployeeHomeComponent {
-  emp = employee;
+  emp: any;
   group: any;
   status: any;
   groupList = [
@@ -39,6 +39,11 @@ export class EmployeeHomeComponent {
   ) {}
 
   ngOnInit() {
+    if (localStorage.getItem("login") === "false") {
+      this.router.navigateByUrl('/login');
+    } else {
+      this.emp = JSON.parse(localStorage.getItem("employee")!);
+    }
   }
 
   onRowSelect(event: any) {

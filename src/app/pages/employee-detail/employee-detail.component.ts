@@ -16,6 +16,9 @@ export class EmployeeDetailComponent {
   }
 
   ngOnInit() {
+    if (localStorage.getItem("login") === "false") {
+      this.router.navigateByUrl('/login');
+    }
   }
 
   goBack() {
