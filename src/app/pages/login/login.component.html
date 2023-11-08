@@ -6,7 +6,7 @@
         <label htmlFor="username">Username</label>
         <input pInputText id="username" aria-describedby="username-help" formControlName="username"/>
 
-        <label htmlFor="username">Password</label>
+        <label htmlFor="password">Password</label>
         <p-password [feedback]="false" [toggleMask]="true" inputStyleClass="w-12" styleClass="w-12" formControlName="password"></p-password>
 
         <small *ngIf="fail" class="text-red-500">Incorrect username or password</small>

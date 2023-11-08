@@ -12,12 +12,17 @@ import { ButtonModule } from 'primeng/button';
 import { EmployeeHomeComponent } from './pages/employee-home/employee-home.component';
 import { TableModule } from 'primeng/table';
 import { ToastModule } from 'primeng/toast';
+import { EmployeeAddComponent } from './pages/employee-add/employee-add.component';
+import { CalendarModule } from 'primeng/calendar';
+import { DropdownModule } from 'primeng/dropdown';
+import { InputNumberModule } from 'primeng/inputnumber';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    EmployeeHomeComponent
+    EmployeeHomeComponent,
+    EmployeeAddComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +33,10 @@ import { ToastModule } from 'primeng/toast';
     PasswordModule,
     ButtonModule,
     TableModule,
-    ToastModule
+    ToastModule,
+    CalendarModule,
+    DropdownModule,
+    InputNumberModule
   ],
   providers: [],
   bootstrap: [AppComponent]

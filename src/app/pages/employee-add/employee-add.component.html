@@ -1,0 +1,60 @@
+<div class="card m-5">
+    <p class="text-2xl w-12 font-semibold">Add Employee</p>
+
+    <form class="justify-content-center" [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+        <div class="grid nested-grid gap-2">
+            
+            <div class="col-12 flex flex-column gap-2">
+                <label htmlFor="username">Username</label>
+                <input pInputText id="username" placeholder="Enter username" aria-describedby="username-help" formControlName="username"/>
+            </div>
+            
+            <div class="col-12">
+                <div class="grid">
+                    <div class="col-12 md:col-6 flex flex-column gap-2">
+                        <label htmlFor="firstName">First Name</label>
+                        <input pInputText id="firstName" placeholder="Enter first name" aria-describedby="firstName-help" formControlName="firstName"/>
+                    </div>
+        
+                    <div class="col-12 md:col-6 flex flex-column gap-2">
+                        <label htmlFor="lastName">Last Name</label>
+                        <input pInputText id="lastName" placeholder="Enter last name" aria-describedby="lastName-help" formControlName="lastName"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 flex flex-column gap-2">
+                <label htmlFor="email">Email</label>
+                <input pInputText id="email" placeholder="john.doe@mail.com" aria-describedby="email-help" formControlName="email"/>
+            </div>
+
+            <div class="col-12 flex flex-column gap-2">
+                <label htmlFor="birthDate">Birth Date</label>
+                <p-calendar styleClass="w-12" inputStyleClass="w-12" [maxDate]="maxDate" formControlName="birthDate"></p-calendar>
+            </div>
+
+            <div class="col-12 flex flex-column gap-2">
+                <label htmlFor="basicSalary">Basic Salary</label>
+                <p-inputNumber styleClass="w-12" inputStyleClass="w-12" inputId="currency-germany" formControlName="basicSalary" mode="currency" currency="IDR"></p-inputNumber>
+            </div>
+
+            <div class="col-12 flex flex-column gap-2">
+                <label htmlFor="status">Status</label>
+                <p-dropdown styleClass="w-12" inputStyleClass="w-12" [options]="statusList" formControlName="status" optionLabel="name" placeholder="Select a Status"></p-dropdown>
+            </div>
+
+            <div class="col-12 flex flex-column gap-2">
+                <label htmlFor="group">Group</label>
+                <p-dropdown styleClass="w-12" inputStyleClass="w-12" [options]="groupList" formControlName="group" optionLabel="name" [filter]="true" filterBy="name" [showClear]="true" placeholder="Select a Group"></p-dropdown>
+            </div>
+
+            <div class="col-12 flex flex-column gap-2">
+                <label htmlFor="description">Description</label>
+                <p-calendar styleClass="w-12" inputStyleClass="w-12" [maxDate]="maxDate" formControlName="description"></p-calendar>
+            </div>
+
+            <p-button class="" label="Cancel" type="button" [outlined]="true" severity="danger"></p-button>
+            <p-button class="" label="Save" type="submit" [disabled]="employeeForm.invalid"></p-button>
+        </div>
+    </form>
+</div>
